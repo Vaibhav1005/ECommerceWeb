@@ -1,4 +1,3 @@
-var app = angular.module("transflower",[]);
 app.controller("LoginController", function($scope){
     $scope.user = {
         "email":"vaibhav@gmail.com",

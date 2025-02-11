@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+        <script src="../modules/app.js"></script>
+        <script src="../controllers/product.catalog.js"></script>
+        
+    </head>
+    <body ng-app="transflower" ng-controller="ProductCatalogController">
+        <div class="row" ng-repeat="product in products">
+            <div class="container col card" style="border: solid;"> 
+                <h2>{{product.name}}</h2>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="{{product.imgSrc}}" alt="Card image" style="height:50vh">
+                  <div class="card-body">
+                    <h4 class="card-title">{{product.name}}</h4>
+                    <p class="card-text">
+                        Type: {{product.type}} {{product.subtype}}
+                    <br>
+                    Price: {{product.price | currency : "₹" :2}}  
+                    <br>
+                    <button class="btn btn-primary stretched-link">Buy now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </body>
+</html>
