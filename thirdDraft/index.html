@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-app="transflower" ng-controller="LoginController">
+        <h1>TFL Store</h1>
+        <ol>
+            <li>Roses</li>
+            <li>Lotus</li>
+            <li>Gerbera</li>
+            <li>Lily</li>
+        </ol>
+        <hr>
+        <div>
+            <div>
+                <ol>
+                    <li ng-repeat="user in users">
+                       {{user.email}} {{user.password}} 
+                    </li>
+                </ol>
+            </div>
+            <form ng-submit="onValidate()">
+                <table>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>
+                            <input type="text" name="email" id="email" ng-model="user.email" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td>
+                            <input type="text" name="password" id="password" ng-model="user.password" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button id="btnLogin">Login</button>
+                        </td>
+                    </tr>
+                </table>
+                <label id="message"></label>
+            </form>
+        </div>
+    </body>
+</html>
