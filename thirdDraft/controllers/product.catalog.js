@@ -1,4 +1,4 @@
-app.controller("ProductCatalogController", function($scope){
+catalogmodule.controller("ProductCatalogController", function($scope){
     $scope.products = [
         {
             id: '01',

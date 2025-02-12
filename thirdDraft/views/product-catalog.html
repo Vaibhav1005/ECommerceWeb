@@ -2,17 +2,21 @@
     <head>
         <title>
 
-        </title>
+        </title>                
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
+        <script src="../modules/auth.module.js"></script>
+        <script src="../modules/catalog.module.js"></script>
         <script src="../modules/app.js"></script>
         <script src="../controllers/product.catalog.js"></script>
+        <script src="../controllers/login.controller.js"></script>
         
     </head>
-    <body ng-app="transflower" ng-controller="ProductCatalogController">
+    <body>
+    <div ng-app="catalogmodule" ng-controller="ProductCatalogController">
         <div class="row" style="display: flex; flex-wrap: wrap;">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="product in products">
               <div class="card" style="border: solid; border-width: thin;">
@@ -33,7 +37,6 @@
               </div>
           </div>
       </div>
-      
-        
+    </div>
     </body>
 </html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+
+        </title>                
+        <script src="../angular.min.js"></script>       
+        <script src="../dist/controllers/app.controller.js"></script>
+        <script src="../dist/controllers/product-catalog.controller.js"></script>
+        <script src="../dist/app.module.js"></script> 
+    </head>
+    <body>
+    <div ng-app="myApp" ng-controller="ProductCatalogController as vm">
+        <div class="row" style="display: flex; flex-wrap: wrap;">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="product in vm.products">
+              <div class="card" style="border: solid; border-width: thin;">
+                  <h2>{{product.name}}</h2>
+                  <div class="card" style="width: 100%;">
+                      <img class="card-img-top" src="{{product.imgSrc}}" alt="Card image" style="height:50vh;">
+                      <div class="card-body">
+                          <h4 class="card-title">{{product.name}}</h4>
+                          <p class="card-text">
+                              Type: {{product.type}} {{product.subtype}}
+                              <br>
+                              Price: <b>{{product.price | currency : "₹" : 2}}</b>
+                              <br>
+                              <button class="btn btn-primary stretched-link">Buy now</button>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    </body>
+</html>

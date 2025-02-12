@@ -1,4 +1,4 @@
-app.controller("LoginController", function($scope){
+authmodule.controller("LoginController", function($scope){
     $scope.user = {
         "email":"vaibhav@gmail.com",
         "password":"Vaibhav1005"

@@ -4,9 +4,13 @@
 
         </title>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-        <script src="../controllers/app.js"></script>
+        <script src="../modules/auth.module.js"></script>
+        <script src="../modules/catalog.module.js"></script>
+        <script src="../modules/app.js"></script>
+        <script src="../controllers/product.catalog.js"></script>
     </head>
-    <body ng-app="transflower" ng-controller="LoginController">
+    <body>
+        <div ng-app="authmodule" ng-controller="LoginController">
         <h1>TFL Store</h1>
         <ol>
             <li>Roses</li>
@@ -47,5 +51,6 @@
                 <label id="message"></label>
             </form>
         </div>
+    </div>
     </body>
 </html>

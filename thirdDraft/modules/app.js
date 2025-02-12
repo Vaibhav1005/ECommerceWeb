@@ -1,1 +1,1 @@
-var app = angular.module("transflower",[]);
+var productApp = angular.module("transflower",['catalogmodule','authmodule']);
