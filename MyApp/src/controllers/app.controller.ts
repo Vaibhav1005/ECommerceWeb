@@ -1,8 +1,7 @@
-import angular from "angular";
 
-export interface IScopeCustom extends angular.IScope {
-    vm: any;
-}
+import { IScopeCustom } from "../interfaces/iscope.interface";
+
+
 
 export class MyFirstController{
     name!: string;

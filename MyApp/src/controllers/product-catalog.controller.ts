@@ -1,12 +1,5 @@
-import { IScopeCustom } from "./app.controller";
-export interface Product{
-    id: string,
-    name: string,
-    type: string,
-    subtype: string,
-    price: string,
-    imgSrc: string
-}
+import { IScopeCustom } from "../interfaces/iscope.interface";
+import { Product } from "../models/product.model";
 export class ProductCatalogController{
     products: Product[] = [
         {
