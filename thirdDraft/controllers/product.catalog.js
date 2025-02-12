@@ -6,7 +6,7 @@ app.controller("ProductCatalogController", function($scope){
             type: 'Electronics',
             subtype: 'Mobile',
             price: '89999',
-            imgSrc: 'https://www.cioupdate.com.tr/wp-content/uploads/2024/05/Samsung-Galaxy-S25-Ultra-1-1-scaled.jpg'
+            imgSrc: 'https://th.bing.com/th/id/OIP.yV1-PvDCjqfNf3oqMNN0pgHaHa?w=500&h=500&rs=1&pid=ImgDetMain'
         },
         {
             id: '02',
