@@ -10,7 +10,7 @@ var ShoppingController = /** @class */ (function () {
     };
     ShoppingController.prototype.removeFromCart = function () {
         var x = 0;
-      }
+    };
     ShoppingController.$inject = ['$scope', 'ProductService'];
     return ShoppingController;
 }());

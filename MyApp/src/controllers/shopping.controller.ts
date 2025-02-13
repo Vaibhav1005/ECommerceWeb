@@ -12,7 +12,7 @@ export class ShoppingController{
               $scope['vm'] = this;
           } 
           getCartData(){
-            this.products = this.productService.getCartProducts();
+            this.products = JSON.parse(JSON.stringify(this.productService.getCartProducts()));
           }
           removeFromCart(){
             var x = 0;
