@@ -20,8 +20,14 @@ export class ProductCatalogController{
       });
     }
     onAddCart(product: Product){
+      var tempData : Product[] = [];
       if(product){
-        this.productService.addProductToCart(product);
+        tempData = JSON.parse(this.productService.getCartProducts());
+        if(tempData){
+          tempData.push(product);
+        }
+        if(tempData == null){tempData = []; tempData.push(product);}
+        this.productService.addProductToCart(tempData);
         alert('Item added to cart successfully!!')
       }
     }

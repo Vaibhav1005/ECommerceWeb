@@ -16,8 +16,17 @@ var ProductCatalogController = /** @class */ (function () {
         });
     };
     ProductCatalogController.prototype.onAddCart = function (product) {
+        var tempData = [];
         if (product) {
-            this.productService.addProductToCart(product);
+            tempData = JSON.parse(this.productService.getCartProducts());
+            if (tempData) {
+                tempData.push(product);
+            }
+            if (tempData == null) {
+                tempData = [];
+                tempData.push(product);
+            }
+            this.productService.addProductToCart(tempData);
             alert('Item added to cart successfully!!');
         }
     };

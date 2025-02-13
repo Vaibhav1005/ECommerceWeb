@@ -1,4 +1,3 @@
-
 angular.module('myApp', ['ngRoute'])
     .service('ProductService', ProductService)
     .controller('MyFirstController', MyFirstController)
@@ -12,6 +11,11 @@ angular.module('myApp', ['ngRoute'])
             templateUrl: 'views/shopping-cart.html', // Template for the home route
             controller: 'ShoppingController', // Controller for the home route
             controllerAs: 'shoppingControllerCtrl' // Use 'homeCtrl' as alias for the controller instance
+        })
+        .when('/login', {
+            templateUrl: 'views/login.html', // Template for the home route
+            controller: 'LoginController', // Controller for the home route
+            controllerAs: 'loginControllerCtrl' // Use 'homeCtrl' as alias for the controller instance
         })
             .when('/home', {
             templateUrl: 'views/home.html', // Template for the home route

@@ -41,7 +41,7 @@
     }
     </style>
 </head>
-<header class="header row">
+<header class="header row" ng-controller="ShoppingController as shoppingControllerCtrl">
     <!-- Logo Section -->
     <div class="logo col-lg-2">
         <a><img style="height: 8vh; width: 8vh;" src="https://cdn4.iconfinder.com/data/icons/shopping-and-commerce-outline-color/512/shopping_commerce_21-1024.png"></a>
@@ -56,7 +56,7 @@
     <nav class="col-lg-3">
         <ul class="nav-links">
             <li><a class="nav-cust" href="#!/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <span>{{ cartItemCount }}</span></a></li>
+                <span>{{ shoppingControllerCtrl.getCartCount() }}</span></a></li>
             <li><a class="nav-cust" href="/home">Home</a></li>
             <li><a class="nav-cust" href="/shop">Shop</a></li>
             <li><a class="nav-cust" href="/about">About Us</a></li>

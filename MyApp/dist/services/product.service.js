@@ -8,6 +8,10 @@ var ProductService = /** @class */ (function () {
     ProductService.prototype.getCartProducts = function () {
         return JSON.parse(JSON.stringify(sessionStorage.getItem('cartProducts')));
     };
+    ProductService.prototype.getCartProductsCount = function () {
+        var tempdata = JSON.parse(JSON.stringify(sessionStorage.getItem('cartProducts')));
+        return tempdata.length;
+    };
     ProductService.prototype.addProductToCart = function (product) {
         sessionStorage.setItem('cartProducts', JSON.stringify(product));
     };

@@ -26,9 +26,9 @@
         </style>
     </head>
     
-    <body ng-app="myApp" style="background-color: aliceblue;">
-        <div style="margin-bottom: 0vh;" ng-include src="'views/header.html'"></div> 
+    <body ng-app="myApp" style="background-color: aliceblue;" ng-controller="LoginController as loginControllerCtrl">
+        <div ng-if="loginControllerCtrl.getLoggedInUser()" style="margin-bottom: 0vh;" ng-include src="'views/header.html'"></div> 
         <div ng-view></div>         
-        <div style="margin-bottom: 0vh;" ng-include src="'views/footer.html'"></div> 
+        <div ng-if="loginControllerCtrl.getLoggedInUser()" style="margin-bottom: 0vh;" ng-include src="'views/footer.html'"></div> 
     </body>
 </html>
