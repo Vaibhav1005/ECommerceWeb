@@ -1,6 +1,4 @@
 <head>
-    <title>AngularJS E-commerce App</title>
-    <script src="../angular.min.js"></script>
     <style>
         /* Add basic styling for the header */
         .header {
@@ -45,26 +43,20 @@
 </head>
 <header class="header row">
     <!-- Logo Section -->
-    <div class="logo col-lg-3">
+    <div class="logo col-lg-2">
         <a><img style="height: 8vh; width: 8vh;" src="https://cdn4.iconfinder.com/data/icons/shopping-and-commerce-outline-color/512/shopping_commerce_21-1024.png"></a>
     </div>
 
     <!-- Search Bar -->
-    <div class="search-bar col-lg-3" style="width: 100vh;">
+    <div class="search-bar col-lg-6" style="width: 100vh;">
         <input type="text" style="width: 100%;" placeholder="Search for products...">
-    </div>
-
-    <!-- Cart Icon -->
-    <div class="cart-icon">
-        <a href="/cart">
-            <i class="fa fa-shopping-cart"></i>
-            <span>{{ cartItemCount }}</span>
-        </a>
     </div>
 
     <!-- Navigation Links -->
     <nav class="col-lg-3">
         <ul class="nav-links">
+            <li><a class="nav-cust" href="#!/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span>{{ cartItemCount }}</span></a></li>
             <li><a class="nav-cust" href="/home">Home</a></li>
             <li><a class="nav-cust" href="/shop">Shop</a></li>
             <li><a class="nav-cust" href="/about">About Us</a></li>
