@@ -6,9 +6,10 @@
         <script src="./dist/controllers/product-catalog.controller.js"></script>
         <script src="./dist/app.module.js"></script>
     </head>
+    
     <body ng-app="myApp" >
-        
-        <div ng-controller="MyFirstController as vm">
+        <div style="margin-bottom: 10vh;" ng-include src="'views/header.html'"></div>
+        <!-- <div ng-controller="MyFirstController as vm">
         <h1>TFL Store</h1>
         <ol>
             <li>Roses</li>
@@ -49,7 +50,7 @@
                 <label id="message"></label>
            
         </div>
-    </div>
+    </div> -->
     <div ng-controller="ProductCatalogController as vm">
         <div class="row" style="display: flex; flex-wrap: wrap;">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="product in vm.products">
