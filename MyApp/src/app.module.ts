@@ -26,4 +26,12 @@ angular.module('myApp', ['ngRoute'])
         controller: 'HomeController',  // Controller for the home route
         controllerAs: 'homeControllerCtrl'  // Use 'homeCtrl' as alias for the controller instance
       })
+      .when('/login', {
+        templateUrl: 'views/login.html',  // Template for the login route
+        controller: 'LoginController',  // Controller for the login route
+        controllerAs: 'loginControllerCtrl'  // Use 'homeCtrl' as alias for the controller instance
+      })
+      .otherwise({
+        redirectTo: 'home'  // Default route is home
+      });
   }]);

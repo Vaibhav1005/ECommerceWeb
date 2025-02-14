@@ -10,7 +10,7 @@
                             Type: {{product.type}} {{product.subtype}} <br>
                             Price: <b>{{product.price | currency : "₹" : 2}}</b>
                         </p>
-                        <button class="btn btn-primary stretched-link btn-sm" ng-click="vm.onAddCart(product)">Add to cart</button>
+                        <button ng-disabled="vm.getLoggedInUser()" class="btn btn-primary stretched-link btn-sm">Add to cart</button>
                     </div>
                 </div>
             </div>

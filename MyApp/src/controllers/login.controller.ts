@@ -1,21 +1,31 @@
+import { IScopeCustom } from "../interfaces/iscope.interface";
+import { ProductService } from "../services/product.service";
+
 export class LoginController{
+    static $inject = ['$scope', '$location','ProductService'];
     email: string = '';
     password: string = '';
 
-    constructor(){
-
+    constructor(private $scope: IScopeCustom, private $location: angular.ILocationService, private productService: ProductService){
+        this.productService.setUserLogOut()
     }
 
     onClickLogin(){
         if(this.email === 'vaibhav' && this.password == 'vaibhav'){
-            sessionStorage.setItem('isUserLoggedIn', '1');
+            this.productService.setUserLogIn();
+            this.productService.setRoute('home');
         }
     }
     getLoggedInUser(){
-        let temp = sessionStorage.getItem('isUserLoggedIn');
-        if(temp == '1'){
+       return this.productService.getLoggedInUser();
+    }
+    checkIfLoginPage(){
+        if(this.$location.path() != '/login'){
             return true;
         }
         return false;
+    }
+    logoutUser(){
+       return this.productService.setUserLogOut();        
     }
 }

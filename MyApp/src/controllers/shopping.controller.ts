@@ -16,13 +16,17 @@ export class ShoppingController{
           } 
           getCartData(){
             this.products = JSON.parse(this.productService.getCartProducts());
-            this.cartItemCount = this.products.length;
             if(this.products){
             this.getTotalAmount();
+            this.cartItemCount = this.products.length;
             }
           }
           getCartCount(){
-            return this.productService.getCartProductsCount();
+            let length = this.productService.getCartProductsCount();
+            if(length == null){
+                return 0;
+            }
+            return length;            
           }
           getTotalAmount(){
             this.cartTotal = 0;
@@ -35,4 +39,5 @@ export class ShoppingController{
             this.productService.addProductToCart(this.products);
             this.getTotalAmount();
           }
+           
 }

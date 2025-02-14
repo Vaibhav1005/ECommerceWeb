@@ -31,4 +31,10 @@ export class ProductCatalogController{
         alert('Item added to cart successfully!!')
       }
     }
+      getLoggedInUser(){
+       return this.productService.getLoggedInUser();
+    }
+    logoutUser(){
+      return this.productService.setUserLogOut();
+    }
 }

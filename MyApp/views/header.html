@@ -55,10 +55,11 @@
     <!-- Navigation Links -->
     <nav class="col-lg-3">
         <ul class="nav-links">
-            <li><a class="nav-cust" href="#!/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <li ng-if="loginControllerCtrl.getLoggedInUser()"><a class="nav-cust" href="#!/cart"><i class="fa fa-shopping-cart" ng-if="loginControllerCtrl.getLoggedInUser()" aria-hidden="true"></i>
                 <span>{{ shoppingControllerCtrl.getCartCount() }}</span></a></li>
-            <li><a class="nav-cust" href="/home">Home</a></li>
-            <li><a class="nav-cust" href="/shop">Shop</a></li>
+            <li><a class="nav-cust" href="#!/home">Home</a></li>
+            <li ng-if="loginControllerCtrl.getLoggedInUser() == false"><a class="nav-cust" href="#!/login">Login</a></li>
+            <li ng-if="loginControllerCtrl.getLoggedInUser() == true"><a class="nav-cust" href="#!home" ng-click="loginControllerCtrl.logoutUser()">Logout</a></li>
             <li><a class="nav-cust" href="/about">About Us</a></li>
             <li><a class="nav-cust" href="/contact">Contact</a></li>
         </ul>

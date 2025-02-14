@@ -9,13 +9,17 @@ var ShoppingController = /** @class */ (function () {
     }
     ShoppingController.prototype.getCartData = function () {
         this.products = JSON.parse(this.productService.getCartProducts());
-        this.cartItemCount = this.products.length;
         if (this.products) {
             this.getTotalAmount();
+            this.cartItemCount = this.products.length;
         }
     };
     ShoppingController.prototype.getCartCount = function () {
-        return this.productService.getCartProductsCount();
+        var length = this.productService.getCartProductsCount();
+        if (length == null) {
+            return 0;
+        }
+        return length;
     };
     ShoppingController.prototype.getTotalAmount = function () {
         this.cartTotal = 0;

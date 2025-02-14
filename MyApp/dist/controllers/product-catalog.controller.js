@@ -30,6 +30,12 @@ var ProductCatalogController = /** @class */ (function () {
             alert('Item added to cart successfully!!');
         }
     };
+    ProductCatalogController.prototype.getLoggedInUser = function () {
+        return this.productService.getLoggedInUser();
+    };
+    ProductCatalogController.prototype.logoutUser = function () {
+        return this.productService.setUserLogOut();
+    };
     ProductCatalogController.$inject = ['$scope', 'ProductService'];
     return ProductCatalogController;
 }());
