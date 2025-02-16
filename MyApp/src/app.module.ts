@@ -6,9 +6,11 @@ import { ShoppingController } from './controllers/shopping.controller';
 import { LoginController } from './controllers/login.controller';
 import { ProductService } from './services/product.service';
 import { HomeController } from './controllers/home.controller';
+import { LoginService } from './services/login.service';
 
 angular.module('myApp', ['ngRoute'])
 .service('ProductService',ProductService)
+.service('LoginService',LoginService)
 .controller('MyFirstController',MyFirstController)
 .controller('ProductCatalogController',ProductCatalogController)
 .controller('ShoppingController',ShoppingController)

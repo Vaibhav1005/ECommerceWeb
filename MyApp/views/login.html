@@ -102,7 +102,9 @@
             margin-top: 15px;
             display: none;
         }
-
+        .error{
+            border: 1px solid red !important;
+        }
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -119,7 +121,7 @@
     <div class="login-container" ng-controller="LoginController as loginControllerCtrl">
         <h2>Login</h2>
         <form>
-            <input type="text" class="input-field" name="username" placeholder="Username" ng-model="loginControllerCtrl.email" required>
+            <input type="text" class="input-field" name="username" placeholder="Username" ng-model="loginControllerCtrl.username" required>
             <input type="password" class="input-field" name="password" placeholder="Password" ng-model="loginControllerCtrl.password" required>
             <button type="submit" ng-click="loginControllerCtrl.onClickLogin()" class="btn">Login</button>
             

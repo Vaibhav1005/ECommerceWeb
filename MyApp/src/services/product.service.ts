@@ -1,5 +1,6 @@
 import angular from "angular";
 import { Product } from "../models/product.model";
+import { User } from "../models/user.model";
 
 export class ProductService {
     static $inject = ['$http','$location'];
@@ -24,8 +25,9 @@ export class ProductService {
     public setUserLogOut(){
         sessionStorage.setItem('isUserLoggedIn', '0');
     }
-    public setUserLogIn(){
+    public setUserLogIn(user: User){
         sessionStorage.setItem('isUserLoggedIn', '1');
+        sessionStorage.setItem('loggedInUser', JSON.stringify(user));
     }
     public getLoggedInUser(){
         let temp = sessionStorage.getItem('isUserLoggedIn');

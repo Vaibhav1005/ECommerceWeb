@@ -5,5 +5,4 @@ export interface ShoppingCartModel{
     User: User;
     Products: Product[];
     TotalAmount: number;
-
 }

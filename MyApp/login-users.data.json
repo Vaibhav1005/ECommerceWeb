@@ -1,0 +1,50 @@
+[
+    {
+        "Id": "01",
+        "Name": "Vaibhav Wable",
+        "PhoneNumber": "9096751005",
+        "Address": "Pune, Maharashtra",
+        "Username":"vaibhav1005",
+        "Password": "Vaibhav1005"
+    },
+    {
+        "Id": "02",
+        "Name": "Rahul Sharma",
+        "PhoneNumber": "9096751006",
+        "Address": "Pune, Maharashtra",
+        "Username":"rahul1006",
+        "Password": "Rahul1006"
+    },
+    {
+        "Id": "03",
+        "Name": "Rohit Kumar",
+        "PhoneNumber": "9096751007",
+        "Address": "Pune, Maharashtra",
+        "Username":"rohit1007",
+        "Password": "Rohit1007"
+    },
+    {
+        "Id": "04",
+        "Name": "Raj Wable",
+        "PhoneNumber": "9096751008",
+        "Address": "Pune, Maharashtra",
+        "Username":"raj1008",
+        "Password": "Raj1008"
+    },
+    {
+        "Id": "05",
+        "Name": "Ravi Kulkarni",
+        "PhoneNumber": "9096751009",
+        "Address": "Pune, Maharashtra",
+        "Username":"ravi1009",
+        "Password": "Ravi1009"
+    },
+    {
+        "Id": "06",
+        "Name": "Rohan Sharma",
+        "PhoneNumber": "9096751010",
+        "Address": "Pune, Maharashtra",
+        "Username":"rohan1010",
+        "Password": "Rohan1010"
+    }   
+]

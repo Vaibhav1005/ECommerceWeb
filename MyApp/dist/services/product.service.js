@@ -19,8 +19,9 @@ var ProductService = /** @class */ (function () {
     ProductService.prototype.setUserLogOut = function () {
         sessionStorage.setItem('isUserLoggedIn', '0');
     };
-    ProductService.prototype.setUserLogIn = function () {
+    ProductService.prototype.setUserLogIn = function (user) {
         sessionStorage.setItem('isUserLoggedIn', '1');
+        sessionStorage.setItem('loggedInUser', JSON.stringify(user));
     };
     ProductService.prototype.getLoggedInUser = function () {
         var temp = sessionStorage.getItem('isUserLoggedIn');
