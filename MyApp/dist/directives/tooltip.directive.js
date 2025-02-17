@@ -1,4 +1,4 @@
-export function tooltipDirective() {
+function tooltipDirective() {
     return {
         restrict: 'A', // Restrict the directive to element type only
         link: function (scope, element, attrs) {

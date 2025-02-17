@@ -1,43 +1,43 @@
 [
     {
         "id": "01",
-        "name": "Samsung S23 Ultra",
+        "name": "Samsung Galaxy S24 Ultra",
         "type": "Electronics",
         "subtype": "Mobile",
-        "price": 89999,
-        "imgSrc": "https://th.bing.com/th/id/OIP.yV1-PvDCjqfNf3oqMNN0pgHaHa?w=500&h=500&rs=1&pid=ImgDetMain"
+        "price": 140000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsung-galaxy-s24-ultra.jpg"
     },
     {
         "id": "02",
-        "name": "Apple IPhone 16 Pro",
+        "name": "Sony WH-1000XM5 Wireless Headphones",
         "type": "Electronics",
-        "subtype": "Mobile",
-        "price": 115000,
-        "imgSrc": "https://th.bing.com/th/id/OIP.5cV6Bxiey16ZNKucbF2r0QHaHa?rs=1&pid=ImgDetMain"
+        "subtype": "Headphones",
+        "price": 32000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/sony-wh-1000xm5.jpg"
     },
     {
         "id": "03",
-        "name": "Samsung S25",
+        "name": "Dell XPS 13 Laptop",
         "type": "Electronics",
-        "subtype": "Mobile",
-        "price": 49999,
-        "imgSrc": "https://th.bing.com/th/id/OIP.tg3dFJQU9lKAudJ0nz54NAAAAA?rs=1&pid=ImgDetMain"
+        "subtype": "Laptop",
+        "price": 120000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/dell-xps-13.jpg"
     },
     {
         "id": "04",
-        "name": "Apple IPhone 15",
-        "type": "Electronics",
-        "subtype": "Mobile",
-        "price": 51999,
-        "imgSrc": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525391_sd.jpg"
+        "name": "Nike Air Max 270 React",
+        "type": "Footwear",
+        "subtype": "Sneakers",
+        "price": 12000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/nike-air-max-270-react.jpg"
     },
     {
         "id": "05",
-        "name": "Samsung Fold 6",
-        "type": "Electronics",
-        "subtype": "Mobile",
-        "price": 149999,
-        "imgSrc": "https://th.bing.com/th/id/OIP.wSsxwhQmFuROX5EyqvvVWwHaHa?rs=1&pid=ImgDetMain"
+        "name": "Adidas Ultraboost 24",
+        "type": "Footwear",
+        "subtype": "Running Shoes",
+        "price": 15000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/adidas-ultraboost-24.jpg"
     },
     {
         "id": "06",
@@ -46,5 +46,693 @@
         "subtype": "Mobile",
         "price": 165000,
         "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/16-promax.jpg"
+    },
+    {
+        "id": "07",
+        "name": "Puma Essential Men’s T-Shirt",
+        "type": "Clothing",
+        "subtype": "T-Shirt",
+        "price": 2500,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/puma-tshirt.jpg"
+    },
+    {
+        "id": "08",
+        "name": "Levi’s 511 Slim Fit Jeans",
+        "type": "Clothing",
+        "subtype": "Jeans",
+        "price": 3500,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/levi-jeans.jpg"
+    },
+    {
+        "id": "09",
+        "name": "Samsung QLED 55-inch 4K TV",
+        "type": "Electronics",
+        "subtype": "Television",
+        "price": 95000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsung-qled-55.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Fossil Hybrid HR Smartwatch",
+        "type": "Electronics",
+        "subtype": "Smartwatch",
+        "price": 15000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/fossil-hybrid-hr.jpg"
+    },
+    {
+        "id": "11",
+        "name": "HP Envy x360 Convertible Laptop",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 105000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/hp-envy-x360.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Canon EOS 5D Mark IV DSLR Camera",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 250000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/canon-eos-5d.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Apple MacBook Pro 14-inch M2",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 180000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/macbook-pro-14.jpg"
+    },
+    {
+        "id": "14",
+        "name": "The North Face Resolve 2 Jacket",
+        "type": "Clothing",
+        "subtype": "Jacket",
+        "price": 8000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/north-face-jacket.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Sony PlayStation 5",
+        "type": "Electronics",
+        "subtype": "Gaming Console",
+        "price": 49999,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/ps5.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Nike Air Force 1",
+        "type": "Footwear",
+        "subtype": "Sneakers",
+        "price": 13000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/nike-air-force-1.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Tommy Hilfiger Men’s Polo Shirt",
+        "type": "Clothing",
+        "subtype": "Polo Shirt",
+        "price": 4000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/tommy-hilfiger-polo.jpg"
+    },
+    {
+        "id": "18",
+        "name": "KitchenAid Stand Mixer",
+        "type": "Home Appliances",
+        "subtype": "Mixer",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/kitchenaid-mixer.jpg"
+    },
+    {
+        "id": "19",
+        "name": "Dyson V15 Detect Cordless Vacuum",
+        "type": "Home Appliances",
+        "subtype": "Vacuum Cleaner",
+        "price": 70000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/dyson-v15-vacuum.jpg"
+    },
+    {
+        "id": "20",
+        "name": "Philips Hue White and Color Ambiance LED Lightbulbs",
+        "type": "Home Appliances",
+        "subtype": "Lighting",
+        "price": 1500,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/philips-hue-lightbulbs.jpg"
+    },
+    {
+        "id": "21",
+        "name": "Bose SoundLink Revolve+ Bluetooth Speaker",
+        "type": "Electronics",
+        "subtype": "Speaker",
+        "price": 35000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/bose-soundlink.jpg"
+    },
+    {
+        "id": "22",
+        "name": "Amazon Kindle Paperwhite",
+        "type": "Electronics",
+        "subtype": "E-Reader",
+        "price": 10000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/kindle-paperwhite.jpg"
+    },
+    {
+        "id": "23",
+        "name": "Levi’s Trucker Jacket",
+        "type": "Clothing",
+        "subtype": "Jacket",
+        "price": 9000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/levi-trucker-jacket.jpg"
+    },
+    {
+        "id": "24",
+        "name": "LG OLED 65-inch 4K TV",
+        "type": "Electronics",
+        "subtype": "Television",
+        "price": 150000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/lg-oled-65.jpg"
+    },
+    {
+        "id": "25",
+        "name": "Nikon Z6 Mirrorless Camera",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 150000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/nikon-z6.jpg"
+    },
+    {
+        "id": "26",
+        "name": "Sony 1000X M4 Noise Cancelling Headphones",
+        "type": "Electronics",
+        "subtype": "Headphones",
+        "price": 30000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/sony-1000x-m4.jpg"
+    },
+    {
+        "id": "27",
+        "name": "Samsung Galaxy Tab S8 Ultra",
+        "type": "Electronics",
+        "subtype": "Tablet",
+        "price": 95000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsung-galaxy-tab-s8.jpg"
+    },
+    {
+        "id": "28",
+        "name": "Bose QuietComfort 45 Headphones",
+        "type": "Electronics",
+        "subtype": "Headphones",
+        "price": 35000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/bose-qc45.jpg"
+    },
+    {
+        "id": "29",
+        "name": "Fitbit Charge 5 Fitness Tracker",
+        "type": "Electronics",
+        "subtype": "Fitness Tracker",
+        "price": 15000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/fitbit-charge-5.jpg"
+    },
+    {
+        "id": "30",
+        "name": "Oculus Quest 2 VR Headset",
+        "type": "Electronics",
+        "subtype": "VR Headset",
+        "price": 40000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/oculus-quest-2.jpg"
+    },
+    {
+        "id": "31",
+        "name": "Timberland PRO Men’s Boots",
+        "type": "Footwear",
+        "subtype": "Boots",
+        "price": 20000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/timberland-boots.jpg"
+    },
+    {
+        "id": "32",
+        "name": "New Balance 990v5 Running Shoes",
+        "type": "Footwear",
+        "subtype": "Running Shoes",
+        "price": 18000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/new-balance-990v5.jpg"
+    },
+    {
+        "id": "33",
+        "name": "Skechers GoWalk 5 Walking Shoes",
+        "type": "Footwear",
+        "subtype": "Walking Shoes",
+        "price": 6000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/skechers-gowalk.jpg"
+    },
+    {
+        "id": "34",
+        "name": "Vans Old Skool Classic Sneakers",
+        "type": "Footwear",
+        "subtype": "Sneakers",
+        "price": 8500,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/vans-old-skool.jpg"
+    },
+    {
+        "id": "35",
+        "name": "Columbia Men’s OutDry EX Gold Tech Jacket",
+        "type": "Clothing",
+        "subtype": "Jacket",
+        "price": 15000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/columbia-outdry-tech.jpg"
+    },
+    {
+        "id": "36",
+        "name": "The North Face Nuptse Down Jacket",
+        "type": "Clothing",
+        "subtype": "Jacket",
+        "price": 18000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/north-face-nuptse.jpg"
+    },
+    {
+        "id": "37",
+        "name": "Patagonia Men’s Torrentshell Jacket",
+        "type": "Clothing",
+        "subtype": "Jacket",
+        "price": 12000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/patagonia-torrentshell.jpg"
+    },
+    {
+        "id": "38",
+        "name": "Ray-Ban Aviator Sunglasses",
+        "type": "Accessories",
+        "subtype": "Sunglasses",
+        "price": 12000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/rayban-aviator.jpg"
+    },
+    {
+        "id": "39",
+        "name": "Michael Kors Women’s Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/michael-kors-watch.jpg"
+    },
+    {
+        "id": "40",
+        "name": "Louis Vuitton Monogram Backpack",
+        "type": "Accessories",
+        "subtype": "Backpack",
+        "price": 60000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/louis-vuitton-backpack.jpg"
+    },
+    {
+        "id": "41",
+        "name": "Patek Philippe Men’s Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 250000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/patek-philippe-watch.jpg"
+    },
+    {
+        "id": "42",
+        "name": "Celine Classic Box Bag",
+        "type": "Accessories",
+        "subtype": "Bag",
+        "price": 100000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/celine-box-bag.jpg"
+    },
+    {
+        "id": "43",
+        "name": "Bose Smart Soundbar 900",
+        "type": "Electronics",
+        "subtype": "Soundbar",
+        "price": 50000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/bose-soundbar-900.jpg"
+    },
+    {
+        "id": "44",
+        "name": "Harman Kardon Onyx Studio 6 Bluetooth Speaker",
+        "type": "Electronics",
+        "subtype": "Speaker",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/harman-kardon-onyx.jpg"
+    },
+    {
+        "id": "45",
+        "name": "Dyson Airwrap Complete Styler",
+        "type": "Home Appliances",
+        "subtype": "Hair Styler",
+        "price": 40000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/dyson-airwrap.jpg"
+    },
+    {
+        "id": "46",
+        "name": "Apple AirPods Pro (2nd Generation)",
+        "type": "Electronics",
+        "subtype": "Headphones",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/airpods-pro-2.jpg"
+    },
+    {
+        "id": "47",
+        "name": "Marshall Stanmore II Wireless Bluetooth Speaker",
+        "type": "Electronics",
+        "subtype": "Speaker",
+        "price": 30000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/marshall-stanmore-ii.jpg"
+    },
+    {
+        "id": "48",
+        "name": "Bang & Olufsen Beoplay H95 Headphones",
+        "type": "Electronics",
+        "subtype": "Headphones",
+        "price": 60000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/bang-olufsen-h95.jpg"
+    },
+    {
+        "id": "49",
+        "name": "Bose 700 Noise Cancelling Headphones",
+        "type": "Electronics",
+        "subtype": "Headphones",
+        "price": 40000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/bose-700.jpg"
+    },
+    {
+        "id": "50",
+        "name": "Bang & Olufsen BeoSound Balance Speaker",
+        "type": "Electronics",
+        "subtype": "Speaker",
+        "price": 90000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/beosound-balance.jpg"
+    },
+    {
+        "id": "51",
+        "name": "Lego Creator Expert Roller Coaster",
+        "type": "Toys",
+        "subtype": "Building Blocks",
+        "price": 22000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/lego-creator-roller-coaster.jpg"
+    },
+    {
+        "id": "52",
+        "name": "Playmobil Pirate Ship",
+        "type": "Toys",
+        "subtype": "Playset",
+        "price": 10000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/playmobil-pirate-ship.jpg"
+    },
+    {
+        "id": "53",
+        "name": "LEGO Star Wars Millennium Falcon",
+        "type": "Toys",
+        "subtype": "Building Blocks",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/lego-star-wars.jpg"
+    },
+    {
+        "id": "54",
+        "name": "Fisher-Price Laugh & Learn Smart Stages Chair",
+        "type": "Toys",
+        "subtype": "Educational Toy",
+        "price": 5000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/fisher-price-chair.jpg"
+    },
+    {
+        "id": "55",
+        "name": "Nintendo Switch OLED Model",
+        "type": "Electronics",
+        "subtype": "Gaming Console",
+        "price": 35000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/nintendo-switch-oled.jpg"
+    },
+    {
+        "id": "56",
+        "name": "Razer DeathAdder V2 Gaming Mouse",
+        "type": "Electronics",
+        "subtype": "Gaming Accessories",
+        "price": 7000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/razer-deathadder-v2.jpg"
+    },
+    {
+        "id": "57",
+        "name": "Logitech G Pro X Wireless Gaming Headset",
+        "type": "Electronics",
+        "subtype": "Gaming Accessories",
+        "price": 18000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/logitech-g-pro-x.jpg"
+    },
+    {
+        "id": "58",
+        "name": "Corsair K95 RGB Platinum XT Gaming Keyboard",
+        "type": "Electronics",
+        "subtype": "Gaming Accessories",
+        "price": 14000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/corsair-k95.jpg"
+    },
+    {
+        "id": "59",
+        "name": "SteelSeries Arctis Pro Wireless Gaming Headset",
+        "type": "Electronics",
+        "subtype": "Gaming Accessories",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/steelseries-arctis.jpg"
+    },
+    {
+        "id": "60",
+        "name": "Sony PlayStation VR2",
+        "type": "Electronics",
+        "subtype": "Gaming Accessories",
+        "price": 50000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/ps-vr2.jpg"
+    },
+    {
+        "id": "61",
+        "name": "Canon EOS R5 Mirrorless Camera",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 400000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/canon-eos-r5.jpg"
+    },
+    {
+        "id": "62",
+        "name": "Olympus OM-D E-M1 Mark III",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 100000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/olympus-em1.jpg"
+    },
+    {
+        "id": "63",
+        "name": "GoPro Hero 10 Black",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 35000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/gopro-hero-10.jpg"
+    },
+    {
+        "id": "64",
+        "name": "Leica M10-R Camera",
+        "type": "Electronics",
+        "subtype": "Camera",
+        "price": 800000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/leica-m10r.jpg"
+    },
+    {
+        "id": "65",
+        "name": "Samsung 75-inch QLED 8K TV",
+        "type": "Electronics",
+        "subtype": "Television",
+        "price": 250000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsung-qled-8k.jpg"
+    },
+    {
+        "id": "66",
+        "name": "Apple TV 4K",
+        "type": "Electronics",
+        "subtype": "Streaming Device",
+        "price": 18000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/apple-tv-4k.jpg"
+    },
+    {
+        "id": "67",
+        "name": "Sonos Arc Soundbar",
+        "type": "Electronics",
+        "subtype": "Soundbar",
+        "price": 80000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/sonos-arc.jpg"
+    },
+    {
+        "id": "68",
+        "name": "Samsung Galaxy Watch 5 Pro",
+        "type": "Electronics",
+        "subtype": "Smartwatch",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsung-galaxy-watch-5.jpg"
+    },
+    {
+        "id": "69",
+        "name": "Garmin Fenix 7 Solar Smartwatch",
+        "type": "Electronics",
+        "subtype": "Smartwatch",
+        "price": 60000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/garmin-fenix7.jpg"
+    },
+    {
+        "id": "70",
+        "name": "Apple Watch Ultra",
+        "type": "Electronics",
+        "subtype": "Smartwatch",
+        "price": 79999,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/apple-watch-ultra.jpg"
+    },
+    {
+        "id": "71",
+        "name": "Tissot T-Touch Connect Solar Smartwatch",
+        "type": "Electronics",
+        "subtype": "Smartwatch",
+        "price": 40000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/tissot-touch.jpg"
+    },
+    {
+        "id": "72",
+        "name": "Rolex Submariner Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 1000000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/rolex-submariner.jpg"
+    },
+    {
+        "id": "73",
+        "name": "Hublot Big Bang Unico Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 2000000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/hublot-big-bang.jpg"
+    },
+    {
+        "id": "74",
+        "name": "Audemars Piguet Royal Oak Offshore Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 3000000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/audemars-piguet.jpg"
+    },
+    {
+        "id": "75",
+        "name": "Tag Heuer Monaco Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 1500000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/tag-heuer-monaco.jpg"
+    },
+    {
+        "id": "76",
+        "name": "Breitling Navitimer Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 1200000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/breitling-navitimer.jpg"
+    },
+    {
+        "id": "77",
+        "name": "Omega Seamaster Diver 300M Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 2000000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/omega-seamaster.jpg"
+    },
+    {
+        "id": "78",
+        "name": "Panerai Luminor Marina Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 1000000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/panerai-luminor.jpg"
+    },
+    {
+        "id": "79",
+        "name": "IWC Big Pilot’s Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 3500000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/iwc-big-pilot.jpg"
+    },
+    {
+        "id": "80",
+        "name": "Seiko Presage Cocktail Time Watch",
+        "type": "Accessories",
+        "subtype": "Watch",
+        "price": 500000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/seiko-presage.jpg"
+    },
+    {
+        "id": "81",
+        "name": "Montblanc Meisterstück Rollerball Pen",
+        "type": "Accessories",
+        "subtype": "Pen",
+        "price": 40000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/montblanc-rollerball.jpg"
+    },
+    {
+        "id": "82",
+        "name": "Pelikan Souverän M800 Fountain Pen",
+        "type": "Accessories",
+        "subtype": "Pen",
+        "price": 60000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/pelikan-fountain-pen.jpg"
+    },
+    {
+        "id": "83",
+        "name": "Cross Century II Rollerball Pen",
+        "type": "Accessories",
+        "subtype": "Pen",
+        "price": 20000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/cross-century-ii.jpg"
+    },
+    {
+        "id": "84",
+        "name": "Lamy Safari Fountain Pen",
+        "type": "Accessories",
+        "subtype": "Pen",
+        "price": 7000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/lamy-safari.jpg"
+    },
+    {
+        "id": "85",
+        "name": "Tumi Alpha 3 Expandable Laptop Briefcase",
+        "type": "Accessories",
+        "subtype": "Briefcase",
+        "price": 50000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/tumi-briefcase.jpg"
+    },
+    {
+        "id": "86",
+        "name": "Samsonite Winfield 3 DLX Hardside Luggage",
+        "type": "Accessories",
+        "subtype": "Luggage",
+        "price": 25000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/samsonite-luggage.jpg"
+    },
+    {
+        "id": "87",
+        "name": "Away Bigger Carry-On Luggage",
+        "type": "Accessories",
+        "subtype": "Luggage",
+        "price": 35000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/away-carryon.jpg"
+    },
+    {
+        "id": "88",
+        "name": "Rimowa Essential Cabin S Luggage",
+        "type": "Accessories",
+        "subtype": "Luggage",
+        "price": 45000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/rimowa-cabin.jpg"
+    },
+    {
+        "id": "89",
+        "name": "Paravel Aviator Grand 2.0 Weekender Bag",
+        "type": "Accessories",
+        "subtype": "Bag",
+        "price": 30000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/paravel-weekender.jpg"
+    },
+    {
+        "id": "90",
+        "name": "MCM Visetos Backpack",
+        "type": "Accessories",
+        "subtype": "Backpack",
+        "price": 70000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/mcm-visetos.jpg"
+    },
+    {
+        "id": "91",
+        "name": "Montblanc 146 Meisterstück Fountain Pen",
+        "type": "Accessories",
+        "subtype": "Pen",
+        "price": 100000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2022024/10/montblanc-146.jpg"
+    },
+     {
+        "id": "92",
+        "name": "Chanel Classic Flap Bag",
+        "type": "Accessories",
+        "subtype": "Bag",
+        "price": 600000,
+        "imgSrc": "https://shopwice.com/wp-content/uploads/2024/10/chanel-flap-bag.jpg"
     }
 ]

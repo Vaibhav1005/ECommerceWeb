@@ -1,6 +1,8 @@
 angular.module('myApp', ['ngRoute'])
     .service('ProductService', ProductService)
     .service('LoginService', LoginService)
+    .directive('tooltipDirective', tooltipDirective)
+    .filter('serachFilter', function () { return new SearchFilterPipe().transform; })
     .controller('MyFirstController', MyFirstController)
     .controller('ProductCatalogController', ProductCatalogController)
     .controller('ShoppingController', ShoppingController)

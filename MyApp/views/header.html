@@ -48,8 +48,8 @@
     </div>
 
     <!-- Search Bar -->
-    <div class="search-bar col-lg-6" style="width: 100vh;">
-        <input type="text" style="width: 100%;" placeholder="Search for products...">
+    <div class="search-bar col-lg-6" style="width: 100vh;" ng-controller="ProductCatalogController as vm">
+        <input type="text" id="searchInput" style="width: 100%;" ng-model="vm.searchInput" ng-keyup="vm.filterProducts($event)" placeholder="Search for products...">
     </div>
 
     <!-- Navigation Links -->
